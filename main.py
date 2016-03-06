@@ -44,7 +44,7 @@ class SendEmail(object):
             email_from = email_settings.DEFAULT_EMAIL_FROM
 
         msg = MIMEMultipart('alternative')
-        msg['Subject'] = 'benavram.me contact'
+        msg['Subject'] = 'blah, blah, blah . . . '
         msg['From'] = email_from
         msg['TO'] = email_to
         msg_body = MIMEText(email_content, 'plain')
